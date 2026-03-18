@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+h2{
+  font-family: "Google Sans", sans-serif;
+  color: white;
+}
+img{
+    
+    border: 1px solid black;
+}
+body{
+    background-color: #45b3b5;
+     margin: 20px;
+  padding: 20px;
+  width: 100vw;
+  height: 100vh;
+  
+}
+h3{
+  padding: 12px;
+  color: aliceblue;
+
+}
+p{
+      padding: 12px;
+  color: rgb(254, 56, 56);
+}
+button{
+    padding: 10px;
+  color: rgb(222, 22, 22);
+border-radius: 12px;
+
+
+}

@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    /* height: 100vh; */
+    width: 100vw;
+    font-family: "Noto Sans", sans-serif;
+    font-family: 'Amiri', serif;
+    background-color: #ffeaea;
+    margin: 10px;
+    padding: 20px;
+}
+
+.ni {
+    text-align: center;
+    color: #000000;
+    font-size: 4rem;
+
+}
+
+.mi {
+    text-align: center;
+    font-size: 4rem;
+
+    color: #190707;
+}
+
+.item {
+    display: flex;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 900;
+    justify-content: space-around;
+    width: 90%;
+    margin-left: 70px;
+    padding: 20px;
+    gap: 50px;
+    border: 2px solid rgb(0, 0, 0);
+    border: double;
+}
+
+li {
+    color: #A8A2A2;
+}
+    ul {
+  list-style: none; /* Shorthand to remove all list styling */
+}
+   
+
+
+#head1{
+    padding: 30px;
+    /* margin: 20px; */
+}
+p{
+    padding: 20px;
+      width: 50%;
+}
+#head2{
+    padding: 30px;
+    /* margin: 20px; */
+}
+.box {
+  display: flex;
+   margin-left: 10rem;
+     width: 90rem;
+    
+  color:rgb(108, 103, 103);
+
+  /
+}
+
+.card1 {
+  flex: 1;
+  margin: 20px;
+  height: 440px;
+  background-color: #D9D9D9;
+  padding: 1rem;
+  border: 2px solid black;
+}
+.card2 {
+  flex: 1;
+  margin: 20px;
+   height: 440px;
+  background-color: #D9D9D9;
+  padding: 20px;
+  border: 2px solid black;
+}
+.imp{
+    text-align: center;
+    width: 60rem;
+    height: 35rem;
+    background-color: hsl(0, 40%, 98%);
+    border: dotted; 
+    margin-left: 20rem;
+}
+#ayat1{
+    margin: 20px;
+    font-weight: bolder;
+}
+.lesson{
+margin-top: 20px;
+   /* text-align: center; */
+    width: 40rem;
+    height: 9rem;
+    background-color: hsl(0, 40%, 98%);
+    border: dotted; 
+    margin-left: 27rem;
+}
+.tr1{
+    color: rgb(164, 155, 155);
+}
+.lo{
+    text-align: center;
+    margin-right: 29rem;
+    padding: 1rem;
+}
+#end{
+    position: fixed;
+    bottom: 0;
+    margin-top: 20rem;
+    width: 100%;
+    color: #6a6363; 
+    text-align: center;
+    font-weight: 100;
+    opacity: 2px;
+}
+/* Responsive for tablets and smaller screens */
+@media (max-width: 1024px) {
+    .item {
+        flex-direction: column;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        gap: 20px;
+    }
+
+    .box {
+        flex-direction: column;
+        margin-left: 2rem;
+        width: auto;
+    }
+
+    .card1, .card2 {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    .imp {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .lesson {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    p {
+        width: 90%;
+        margin: auto;
+    }
+}
+
+/* Responsive for mobile screens */
+@media (max-width: 600px) {
+    .ni, .mi {
+        font-size: 1.5rem;
+    }
+
+    .item, .box {
+        flex-direction: column;
+        width: 100%;
+        margin-left: 0;
+        padding: 10px;
+    }
+
+    .card1, .card2, .imp, .lesson {
+        width: 95%;
+        margin: 10px auto;
+    }
+
+    p {
+        width: 95%;
+        padding: 10px;
+    }
+
+    .lo {
+        margin-right: auto;
+        text-align: center;
+        padding: 1rem;
+    }
+}

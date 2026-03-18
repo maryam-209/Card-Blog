@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hero {
+  background-image: url('bc.png'); 
+  background-size: cover;     
+  background-position: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  width: 100%;
+  height: 500px;              
+  display: flex;            
+  flex-direction: column;
+  justify-content: center;   
+  background-color:rgb(220, 220, 29);
+  align-items: center;        
+  font-weight: 900;
+  text-align: center;
+  color: #EFBF04;               
+  position: relative;
+}
+.hero h1 {
+  font-size: 80px;
+  text-shadow: 2px 2px 5px rgba(52, 41, 41, 0.5);
+  border-bottom:4px solid  #EFBF04;
+}
+.hero p {
+  font-size: 30px;
+  margin-top: 10px;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}
+.aftar-section{
+    width: 100%;
+    height: 100%;
+    background-color: #edebe4;
+    display: flex;
+    justify-content: center;
+    padding: 70px;
+}
+.sehri{
+    margin: 20px;
+    width: 450px;
+    border-radius: 20px;
+    height: 450px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 3px solid rgb(33, 20, 20);
+    background-color: #ebe9b9;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+}
+.sehri h1{
+    color: green;
+    text-align: center;
+    border-bottom:3px solid green;
+    font-size: 40px;
+    /* background-color: #fff; */
+    padding: 2px;
+}
+.sehri img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    padding: 5px;
+    margin: 10px;
+}
+.sehri p{
+    font-size: 25px;
+padding: 20px;
+margin: 10px;
+}
+/* aftear section */
+.Iftar{
+    margin: 20px;
+    width: 450px;
+    border-radius: 20px;
+    height: 450px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border: 3px solid rgb(33, 20, 20);
+    background-color: #ebe9b9;
+
+}
+.Iftar h1{
+    color: green;
+    text-align: center;
+    border-bottom:3px solid green;
+    font-size: 40px;
+    /* background-color: #fff; */
+    padding: 2px;
+}
+.Iftar img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    padding: 5px;
+    margin: 10px;
+    object-fit: cover;
+}
+.Iftar p{
+    font-size: 25px;
+padding: 20px;
+margin: 10px;
+}
+/* dua section */
+.Dua{
+    margin: 20px;
+    width: 450px;
+    border-radius: 20px;
+    height: 450px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 3px solid rgb(33, 20, 20);
+    background-color: #ebe9b9;
+ box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(188, 198, 208, 0.35) 0px -2px 6px 0px inset;;
+
+}
+.Dua h1{
+    color: green;
+    text-align: center;
+    border-bottom:4px solid green;
+    font-size: 40px;
+    /* background-color: #fff; */
+    padding: 2px;
+}
+.Dua img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    padding: 5px;
+    margin: 10px;
+}
+.Dua p{
+    font-size: 25px;
+padding: 20px;
+margin: 10px;
+}
+.final{
+    /* border: 2px solid rgb(212, 202, 202); */
+    background-color: #edebe4;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column; */
+    padding: 20px;
+    align-items: center;
+    
+}
+.quotes h3{
+border-top: 2px solid black;
+    font-size: 29px;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: green;
+}
+.quotes p{
+    color: green;
+    padding: 20px;
+    font-size: 20px;
+    text-shadow:0px 0px  rgb(0, 236, 0);
+    margin: 2px;
+    border-bottom:2px solid  black;
+}
+button{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    width: 200px;
+    background-color: green;
+    border-radius: 10px;
+    /* padding: 20px; */
+    margin: 20px;
+ display: block;
+  margin: 20px auto 0 auto;
+    font-size: 20px;
+    height: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
