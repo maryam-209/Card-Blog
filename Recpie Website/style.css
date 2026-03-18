@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(12, 222, 254);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+      font-family: "Roboto", sans-serif;
+    align-items: center;
+}
+.box1{
+    width: 300px;
+    height: 250px;
+    background-color: rgb(230, 68, 68);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    /* position:absolute; */
+}
+.box2{
+    width: 300px;
+    height: 250px;
+    background-color: rgb(53, 239, 20);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    /* position:absolute; */
+}
+.tic{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color:white;
+    text-align: center;
+    padding: 10px;
+    font-size: 60px;
+    display: block;
+    margin: auto;
+    color: black;
+}
+#op{
+color: white;
+text-align: center;
+}
+.pi{
+    color: white;
+    font-size: 13px;
+    font-weight: 500;
+    text-align: center;
+}
+.box{
+    width: 300px;
+    height: 100px;
+    background-color: white;
+    border: 2px solid red;
+     padding: 20px;
+     
+     /* position: absolute; */
+     position: relative;
+}
+.ni{
+    width: 120px;
+    height: 28px;
+    margin: auto;
+    color: white;
+    background-color: #e35d45;
+    border: none;
+    display: block;
+    border-radius: 7px;
+    
+}
+.circle{
+    top: 14px;
+    right: -120px;
+    left: 144px;
+    position: relative;
+    background:white;
+    color:black;
+    border: 2px solid red;
+    width:25px;
+    height:25px;
+    border-radius:50%;
+    text-align:center;
+    line-height:25px;
+}
+  .box4{
+    width: 300px;
+    height: 100px;
+    background-color: white;
+    border: 2px solid rgb(0, 238, 56);
+     padding: 20px;
+     
+     /* position: absolute; */
+     position: relative;
+}
+.mi{
+    width: 120px;
+    height: 28px;
+    margin: auto;
+    color: white;
+    background-color: #1fd455;
+    border: none;
+    display: block;
+    border-radius: 7px;
+    
+}
+.ctr{
+    top: 17px;
+    right: -120px;
+    left: 144px;
+    position: relative;
+    background:white;
+    color:black;
+    border: 2px solid rgb(41, 243, 0);
+    width:25px;
+    height:25px;
+    border-radius:50%;
+    text-align:center;
+    line-height:25px;
+}
